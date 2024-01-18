@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="594.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coresslider.FXMLDocumentController">
+   <children>
+      <Slider fx:id="green" layoutX="33.0" layoutY="116.0" majorTickUnit="30.0" max="255.0" minorTickCount="2" onMouseClicked="#clicked" prefHeight="14.0" prefWidth="579.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="red" layoutX="33.0" layoutY="65.0" majorTickUnit="30.0" max="255.0" minorTickCount="2" onMouseClicked="#clicked" prefHeight="14.0" prefWidth="579.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="blue" layoutX="33.0" layoutY="174.0" majorTickUnit="30.0" max="255.0" minorTickCount="2" onMouseClicked="#clicked" prefHeight="14.0" prefWidth="579.0" showTickLabels="true" showTickMarks="true" />
+      <AnchorPane fx:id="background" layoutY="238.0" prefHeight="356.0" prefWidth="777.0" />
+      <Text fx:id="txtGreen" layoutX="692.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="G" wrappingWidth="70.13671875" />
+      <Text fx:id="txtBlue" layoutX="692.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B" wrappingWidth="70.13671875" />
+      <Text fx:id="txtRed" layoutX="692.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R" wrappingWidth="70.13671875" />
+      <Label alignment="CENTER" layoutX="639.0" layoutY="71.0" prefHeight="17.0" prefWidth="28.0" text="Red" textFill="RED" />
+      <Label alignment="CENTER" layoutX="637.0" layoutY="98.0" text="Green" textFill="#1ea100" />
+      <Label alignment="CENTER" layoutX="637.0" layoutY="123.0" prefHeight="17.0" prefWidth="32.0" text="Blue" textFill="#2b00ff" />
+      <Label layoutX="619.0" layoutY="166.0" prefHeight="17.0" prefWidth="70.0" text="Hexadecimal">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+      <Text fx:id="txtHex" layoutX="701.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="#000000" wrappingWidth="51.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

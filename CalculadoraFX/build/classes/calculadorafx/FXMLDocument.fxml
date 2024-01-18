@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="485.0" prefWidth="384.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="calculadorafx.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="161.0" layoutY="14.0" text="Calculadora" />
+      <TextField fx:id="telaTextField" alignment="CENTER_RIGHT" layoutX="12.0" layoutY="52.0" prefHeight="57.0" prefWidth="361.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="apagarButton" layoutX="23.0" layoutY="174.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" text="C" />
+      <Button fx:id="divisaoButton" layoutX="204.0" layoutY="174.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="/" />
+      <Button fx:id="multiplicacaoButton" layoutX="296.0" layoutY="174.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="*" />
+      <Button fx:id="igualButton" layoutX="204.0" layoutY="398.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" text="=" />
+      <Button fx:id="pontoButton" layoutX="116.0" layoutY="398.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="." />
+      <Button fx:id="zeroButton" layoutX="23.0" layoutY="398.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="0" />
+      <Button fx:id="tresButton" layoutX="207.0" layoutY="341.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="3" />
+      <Button fx:id="doisButton" layoutX="114.0" layoutY="341.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="2" />
+      <Button fx:id="umButton" layoutX="23.0" layoutY="341.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="1" />
+      <Button fx:id="somaButton" layoutX="296.0" layoutY="287.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="69.0" text="+" />
+      <Button fx:id="seisButton" layoutX="207.0" layoutY="287.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="6" />
+      <Button fx:id="cincoButton" layoutX="117.0" layoutY="287.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="5" />
+      <Button fx:id="quatroButton" layoutX="25.0" layoutY="287.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="4" />
+      <Button fx:id="subtracaoButton" layoutX="296.0" layoutY="231.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="-" />
+      <Button fx:id="noveButton" layoutX="203.0" layoutY="231.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="9" />
+      <Button fx:id="oitoButton" layoutX="114.0" layoutY="231.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="8" />
+      <Button fx:id="seteButton" layoutX="23.0" layoutY="231.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="69.0" text="7" />
+    </children>
+</AnchorPane>

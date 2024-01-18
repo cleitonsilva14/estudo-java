@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="pane" prefHeight="385.0" prefWidth="535.0" style="-fx-background-color: #f0f7f4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxcolorapplication.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="396.0" prefWidth="157.0" style="-fx-background-color: #00a6fb;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="btnExit" layoutX="469.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#closeApp" prefHeight="25.0" prefWidth="56.0" text="EXIT" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+      <Button fx:id="btnConfirm" layoutX="405.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#confirm" text="CONFIRM" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="78.0" />
+      <Label fx:id="lblMensagem" alignment="CENTER" layoutX="168.0" layoutY="49.0" prefHeight="32.0" prefWidth="189.0" text="Mensagem" textAlignment="CENTER" textFill="#8d1212" />
+      <Button fx:id="btnNewWindow" layoutX="313.0" layoutY="346.0" mnemonicParsing="false" onAction="#newWindow" onMouseClicked="#confirm" text="WINDOW" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="153.0" />
+   </children>
+</AnchorPane>

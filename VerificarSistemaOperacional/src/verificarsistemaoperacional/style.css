@@ -1,0 +1,17 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/11/2018, 15:06:42
+    Author     : CLEITON
+*/
+
+#label{
+    -fx-background-color: #2d79ff;
+}
+#label:hover{
+    /*-fx-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+    -fx-background-color: #74b9ff;
+}

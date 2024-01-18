@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" style="-fx-background-color: #f7f7f7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="datasjavafx.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="19.0" layoutY="54.0" onAction="#data" prefHeight="46.0" prefWidth="94.0" text="DATA" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="19.0" layoutY="120.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="94.0" textFill="#404137" />
+      <Button fx:id="button2" layoutX="200.0" layoutY="54.0" mnemonicParsing="false" onAction="#hora" prefHeight="46.0" prefWidth="94.0" text="HORA">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label fx:id="label2" layoutX="200.0" layoutY="120.0" prefHeight="34.0" prefWidth="94.0" />
+    </children>
+</AnchorPane>

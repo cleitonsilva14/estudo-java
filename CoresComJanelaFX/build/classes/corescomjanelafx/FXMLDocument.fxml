@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="495.0" prefWidth="443.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="corescomjanelafx.FXMLDocumentController">
+   <children>
+      <Label layoutX="42.0" layoutY="53.0" prefHeight="45.0" prefWidth="146.0" text="Digite a Cor: #">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCorHex" layoutX="175.0" layoutY="53.0" prefHeight="45.0" prefWidth="248.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnConv" layoutX="113.0" layoutY="121.0" mnemonicParsing="false" onAction="#converterCor" prefHeight="45.0" prefWidth="195.0" text="Converter">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtCorAtual" layoutX="113.0" layoutY="190.0" prefHeight="45.0" prefWidth="195.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </TextField>
+      <AnchorPane fx:id="panCor" layoutX="111.0" layoutY="281.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1abc23;" />
+   </children>
+</AnchorPane>

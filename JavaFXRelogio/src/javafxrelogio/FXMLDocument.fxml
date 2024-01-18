@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="321.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxrelogio.FXMLDocumentController">
+   <children>
+      <Button layoutX="14.0" layoutY="107.0" mnemonicParsing="false" onAction="#actionData" text="Data">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" layoutX="14.0" layoutY="161.0" prefHeight="54.0" prefWidth="94.0" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="221.0" layoutY="107.0" mnemonicParsing="false" onAction="#actionHora" prefHeight="54.0" prefWidth="86.0" text="Hora">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbl" layoutX="221.0" layoutY="161.0" prefHeight="54.0" prefWidth="86.0" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnC" layoutX="111.0" layoutY="42.0" mnemonicParsing="false" onAction="#actionClear" prefHeight="39.0" prefWidth="101.0" text="Redefinir" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="221.0" layoutY="282.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: #c60000;" text="Sair" textFill="WHITE" />
+   </children>
+</AnchorPane>

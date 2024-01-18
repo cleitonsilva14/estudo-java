@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="246.0" prefWidth="242.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxcolorapplication.InfoFXMLController">
+    <stylesheets>
+        <URL value="@infofxml.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="29.0" layoutY="40.0" prefHeight="125.0" prefWidth="184.0" text="Product VersionJavaFX Scene Builder 2.0Build InformationVersion: 2.0-b20, Changeset: 5cac093e5c1fDate: 2014-03-21 09:29" textFill="#e80505" wrapText="true" />
+      <Button fx:id="btnClose" layoutX="178.0" layoutY="189.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="40.0" prefWidth="50.0" text="X" textFill="#f20202" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="14.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
